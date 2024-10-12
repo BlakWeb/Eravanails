@@ -13,8 +13,8 @@ const ContactInfo = () => {
             <div className="contact-row">
                 <p><strong><FontAwesomeIcon icon={faClock} /> Closed:</strong> Sunday and every other Saturday</p>
                 <p><strong><FontAwesomeIcon icon={faMapMarkerAlt} /> Location:</strong> Ghana, Accra</p>
-                <p><strong><FontAwesomeIcon icon={faPhone} /> Phone:</strong> 059-574-3606</p>
-                <p><strong><FontAwesomeIcon icon={faEnvelope} /> Email:</strong> ernestfrancis30@gmail.com</p>
+                <p><strong><FontAwesomeIcon icon={faPhone} /> Phone:</strong> 059-574-3606 <br> 0200981394 </p>
+                <p><strong><FontAwesomeIcon icon={faEnvelope} /> Email:</strong> eravenailsaesthetics@gmail.com</p>
             </div>
         </div>
     );
