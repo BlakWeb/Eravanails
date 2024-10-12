@@ -12,7 +12,7 @@ const ContactInfo = () => {
             </div>
             <div className="contact-row">
                 <p><strong><FontAwesomeIcon icon={faClock} /> Open:</strong>24hrs Every day </p>
-                <p><strong><FontAwesomeIcon icon={faMapMarkerAlt} /> Location:</strong> Ghana, Accra</p>
+                <p><strong><FontAwesomeIcon icon={faMapMarkerAlt} /> Location:</strong> Accra, Ghana </p>
                 <p><strong><FontAwesomeIcon icon={faPhone} /> Phone:</strong> 059-574-3606 <br/> 0200981394 </p>
                 <p><strong><FontAwesomeIcon icon={faEnvelope} /> Email:</strong> eravenailsaesthetics@gmail.com</p>
             </div>
