@@ -19,8 +19,14 @@ const CategoryList = () => {
     const [selectedPrice, setSelectedPrice] = useState(null);
 
     const handleSelect = (index) => {
-        setSelectedIndex(index);
-        setSelectedPrice(categories[index].price);
+        // If the same button is clicked again, deselect the category and hide the price
+        if (selectedIndex === index) {
+            setSelectedIndex(null);
+            setSelectedPrice(null);
+        } else {
+            setSelectedIndex(index);
+            setSelectedPrice(categories[index].price);
+        }
     };
 
     return (
@@ -38,7 +44,7 @@ const CategoryList = () => {
                 </div>
             ))}
 
-            {/* Conditionally render the price if a category is selected */}
+            {/* Conditionally render the price without the dollar sign */}
             {selectedPrice !== null && (
                 <div className="price-info">
                     <p>Price: {selectedPrice}</p>
