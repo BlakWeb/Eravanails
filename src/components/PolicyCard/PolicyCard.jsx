@@ -22,7 +22,7 @@ const PolicyCard = () => {
                 </div>
                 <div className="info-card">
                     <img src={cash} alt="Cash" className="icon" />
-                    <p>Please bring all cash on the day of your appointment. I don’t accept electronic payments.</p>
+                    <p>Please bring all cash on the day of your appointment. I accept electronic payments via this Momo account. Accout details: 0595743606, 1857785791, Francis Ajige Ombugadu.</p>
                 </div>
                 <div className="info-card">
                     <img src={grace} alt="Grace period" className="icon" />
@@ -46,7 +46,7 @@ const PolicyCard = () => {
                 </div>
                 <div className="info-card">
                     <img src={soak} alt="Soak off" className="icon" />
-                    <p>I only work on nails I have done previously. Please book a soak off if needed.</p>
+                    <p>I work with any style a client sends to me not just my work.</p>
                 </div>
             </div>
         </>
