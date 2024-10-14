@@ -3,22 +3,24 @@ import "./CategotyList.css"
 
 const CategoryList = () => {
     const categories = [
-        { name: 'Artsy set 🎨🖌️' },
-        { name: 'Combo package ✨' },
-        { name: 'Fill in services 🖊️' },
-        { name: 'Freestyle 💅' },
-        { name: 'Frenchies 🌸' },
-        { name: 'Mani and pedi 🥰' },
-        { name: 'Ombré 🖋️' },
-        { name: 'Plugg sett 🔥' },
-        { name: 'Quick weave 💜' },
-        { name: 'Simple acrylic sets 💜' }
+        { name: 'Artsy set 🎨🖌️', price: 50 },
+        { name: 'Combo package ✨', price: 75 },
+        { name: 'Fill in services 🖊️', price: 30 },
+        { name: 'Freestyle 💅', price: 60 },
+        { name: 'Frenchies 🌸', price: 40 },
+        { name: 'Mani and pedi 🥰', price: 90 },
+        { name: 'Ombré 🖋️', price: 55 },
+        { name: 'Plugg sett 🔥', price: 65 },
+        { name: 'Quick weave 💜', price: 45 },
+        { name: 'Simple acrylic sets 💜', price: 35 }
     ];
 
     const [selectedIndex, setSelectedIndex] = useState(null);
+    const [selectedPrice, setSelectedPrice] = useState(null);
 
     const handleSelect = (index) => {
         setSelectedIndex(index);
+        setSelectedPrice(categories[index].price);
     };
 
     return (
@@ -32,9 +34,16 @@ const CategoryList = () => {
                         onClick={() => handleSelect(index)}
                     >
                         Select
-          </button>
+                    </button>
                 </div>
             ))}
+
+            {/* Conditionally render the price if a category is selected */}
+            {selectedPrice !== null && (
+                <div className="price-info">
+                    <p>Price: {selectedPrice}</p>
+                </div>
+            )}
         </div>
     );
 };
