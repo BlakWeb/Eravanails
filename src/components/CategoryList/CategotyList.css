@@ -87,6 +87,7 @@
 
     .price-info {
         font-size: 1rem;
+        padding: 8px;
     }
     .select-button.selected {
     background-color: red;
