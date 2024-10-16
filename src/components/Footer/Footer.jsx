@@ -28,7 +28,7 @@ const Footer = () => {
                     <a href="https://www.tiktok.com/@e_ravenails?_t=8qXPSNueogn&_r=1" className="github social">
                         <FontAwesomeIcon icon={faTiktok} size="2x" />
                     </a>
-                    <a href="wa.me/233595743606" className="whatsapp social">
+                    <a href="https://wa.me/233595743606?text=" className="whatsapp social">
                         <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                     </a>
                 </div>
