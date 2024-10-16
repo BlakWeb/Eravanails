@@ -22,7 +22,7 @@ const PolicyCard = () => {
                 </div>
                 <div className="info-card">
                     <img src={cash} alt="Cash" className="icon" />
-                    <p>Please bring all cash on the day of your appointment. I don’t accept electronic payments.</p>
+                    <p>i accept both cash and electronics payment.</p>
                 </div>
                 <div className="info-card">
                     <img src={grace} alt="Grace period" className="icon" />
@@ -30,7 +30,7 @@ const PolicyCard = () => {
                 </div>
                 <div className="info-card">
                     <img src={email} alt="Email" className="icon" />
-                    <p>Use the correct email and number to receive your appointment details.</p>
+                    <p>Use the correct email, name and phone number to receive your appointment details.</p>
                 </div>
                 <div className="info-card">
                     <img src={cancel} alt="Cancel" className="icon" />
@@ -38,11 +38,11 @@ const PolicyCard = () => {
                 </div>
                 <div className="info-card">
                     <img src={calendar} alt="Booking" className="icon" />
-                    <p>Booking is done biweekly. The schedule opens on the 26th and 12th of each month.</p>
+                    <p>Booking is done daily and also biweekly. The schedule opens daily depending on the time and day of your booking.</p>
                 </div>
                 <div className="info-card">
                     <img src={home} alt="Home-based" className="icon" />
-                    <p>I am a home-based nail tech. No extra guests are allowed.</p>
+                    <p>I am  both home-based and away nail tech. No extra guests are allowed.</p>
                 </div>
                 <div className="info-card">
                     <img src={soak} alt="Soak off" className="icon" />

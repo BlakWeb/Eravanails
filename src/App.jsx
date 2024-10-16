@@ -6,6 +6,7 @@ import PolicyCard from './components/PolicyCard/PolicyCard';
 import PriceList from './components/PriceList/PriceList';
 import Footer from './components/Footer/Footer';
 import CategoryList from './components/CategoryList/CategoryList';
+import OrderItems from './components/OrderItems/OrderItems';
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <PolicyCard />
       <CategoryList />
       <PriceList />
+      <OrderItems />
       <Footer />
     </div>
   )

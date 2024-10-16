@@ -66,6 +66,7 @@ a.github:hover {
 
 @media(max-width:468px) {
     .footer {
+        max-width: 80%;
         margin: 20px 60px;
     }
 

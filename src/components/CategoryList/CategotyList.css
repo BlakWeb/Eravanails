@@ -46,8 +46,17 @@
     background-color: #f351d8;
 }
 
-/* Media Query for screens 480px and smaller */
+/* Styling for price info */
+.price-info {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #d11cb3;
+    border-radius: 5px;
+}
 
+/* Media Query for screens 480px and smaller */
 @media screen and (max-width: 480px) {
     .category-list {
         padding: 10px;
@@ -74,5 +83,10 @@
         width: 100%;
         padding: 8px;
         text-align: center;
+    }
+
+    .price-info {
+        font-size: 1.2rem;
+        padding: 8px;
     }
 }
