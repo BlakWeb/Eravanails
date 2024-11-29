@@ -3,39 +3,70 @@
     max-width: 100%;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px #0000001a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #282828;
+    /* Background color to improve contrast */
 }
 
 .category-list h1 {
     font-size: 2rem;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    margin: 50px 0 20px;
     text-align: center;
     color: #d11cb3;
 }
 
 .category-item {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     border-bottom: 1px solid #6e6a6a;
+    transition: transform 0.3s ease;
+}
+
+.category-item.selected-category {
+    background-color: rgba(209, 28, 179, 0.1);
+    border-radius: 10px;
+    transform: scale(1.03);
+    /* Slight scale effect for selected category */
 }
 
 .category-item p {
     font-size: 1.2rem;
-    margin: 0;
+    margin: 10px 0;
     color: #fff;
 }
 
+.image-gallery {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.image-gallery img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .select-button {
-    padding: 5px 10px;
+    padding: 8px 12px;
     background-color: #d11cb3;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
 .select-button.selected {
@@ -49,6 +80,7 @@
 /* Styling for price info */
 .price-info {
     margin-top: 20px;
+    padding: 10px;
     font-size: 1.5rem;
     color: #ffffff;
     text-align: center;
@@ -68,10 +100,8 @@
     }
 
     .category-item {
-        display: block;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 0;
+        padding: 15px 0;
+        text-align: center;
     }
 
     .category-item p {
@@ -79,9 +109,14 @@
         margin-bottom: 10px;
     }
 
+    .image-gallery img {
+        width: 60px;
+        height: 60px;
+    }
+
     .select-button {
         width: 100%;
-        padding: 8px;
+        padding: 10px;
         text-align: center;
     }
 
