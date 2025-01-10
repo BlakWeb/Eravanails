@@ -57,6 +57,7 @@ const PriceList = () => {
                         <li>Dissolving - 50</li>
                         <li>Manicure - 100</li>
                         <li>Pedicure - 200</li>
+                        <li>Home service - X2</li>
                     </ul>
                 </div>
             </div>
