@@ -18,7 +18,7 @@ const PolicyCard = () => {
             <div className="info-grid">
                 <div className="info-card">
                     <img src={deposit} alt="Deposit" className="icon" />
-                    <p>A NONREFUNDABLE $15 deposit is due at the time of booking and goes towards your total.</p>
+                    <p>A NONREFUNDABLE $5 deposit is due at the time of booking and goes towards your total.</p>
                 </div>
                 <div className="info-card">
                     <img src={cash} alt="Cash" className="icon" />
