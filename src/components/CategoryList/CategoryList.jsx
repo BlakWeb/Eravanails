@@ -87,6 +87,10 @@ const CategoryList = () => {
             price: 35,
             img: [long1, long2, long3, long4, long5, long6, long7, nail25, nail26, nail17, nail28],
         },
+
+        {
+            name: 'Home Service 💜',
+            price: X2, 
     ];
 
     const [selectedIndex, setSelectedIndex] = useState(null);
