@@ -38,7 +38,7 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                     </a>
                 </div>
-                &copy; 2024 ravenails plug. All rights reserved.
+                &copy; 2024 rivaan on nails. All rights reserved.
             </div>
             <div className="footer-bottom-right">
                 <p>Terms of Services</p>
