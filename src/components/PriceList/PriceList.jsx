@@ -5,7 +5,7 @@ const PriceList = () => {
     return (
         <>
             <div className="price-list-header">
-                <h1>E_ravenails Price List</h1>
+                <h1>Rivaan on nails Price List</h1>
             </div>
             <div className="price-list-container">
 
@@ -58,6 +58,8 @@ const PriceList = () => {
                         <li>Manicure - 100</li>
                         <li>Pedicure - 200</li>
                         <li>Home service - X2</li>
+                        <li>Pendicure gel - 250</li>
+                        <li>Cat eye polish - 150</li>
                     </ul>
                 </div>
             </div>
