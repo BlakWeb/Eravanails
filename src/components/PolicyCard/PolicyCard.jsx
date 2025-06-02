@@ -13,7 +13,7 @@ const PolicyCard = () => {
     return (
         <>
             <div className="grid-header-info">
-                <h2>E_ravenails Booking-Info/Criteria</h2>
+                <h2>Rivaan on nails Booking-Info/Criteria</h2>
             </div>
             <div className="info-grid">
                 <div className="info-card">
